@@ -17,6 +17,9 @@ pub struct Theme {
     pub jobs_bg: u8,
     pub jobs_fg: u8,
 
+    pub nix_shell_bg: u8,
+    pub nix_shell_fg: u8,
+
     pub time_bg: u8,
     pub time_fg: u8,
 
@@ -72,6 +75,10 @@ pub const DEFAULT: Theme = Theme {
 
     jobs_bg: 238,
     jobs_fg: 39,
+
+    nix_shell_bg: 2,
+    nix_shell_fg: 15,
+
     ps_bg: 238,
     ps_fg: 39,
 

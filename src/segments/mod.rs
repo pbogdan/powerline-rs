@@ -1,5 +1,6 @@
 pub mod segment_cwd;
 pub mod segment_host;
+pub mod segment_nix_shell;
 pub mod segment_jobs;
 pub mod segment_perms;
 pub mod segment_ps;
@@ -12,6 +13,7 @@ pub mod segment_virtualenv;
 pub use self::segment_cwd::*;
 pub use self::segment_host::*;
 pub use self::segment_jobs::*;
+pub use self::segment_nix_shell::*;
 pub use self::segment_perms::*;
 pub use self::segment_ps::*;
 pub use self::segment_root::*;

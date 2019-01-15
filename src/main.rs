@@ -104,6 +104,7 @@ fn main() {
             Module::Ps => segments::segment_ps(&mut p),
             Module::Host => segments::segment_host(&mut p),
             Module::Jobs => segments::segment_jobs(&mut p),
+            Module::NixShell => segments::segment_nix_shell(&mut p),
             Module::Perms => { segments::segment_perms(&mut p) },
             Module::Ssh => segments::segment_ssh(&mut p),
             Module::Time => segments::segment_time(&mut p),
